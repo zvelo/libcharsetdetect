@@ -1,6 +1,4 @@
 /* The classes below are not exported */
-#pragma GCC visibility push(hidden)
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "nscore.h"
@@ -15,5 +13,3 @@ protected:
 	void Report(const char* aCharset);
     const char *mDetectedCharset;
 };
-
-#pragma GCC visibility pop
